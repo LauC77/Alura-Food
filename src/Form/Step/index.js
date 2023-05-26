@@ -23,7 +23,7 @@ const Step = ({ data, step, pasos }) => {
       }}
       onSubmit={(e) => onSubmit(e, step, pasos)}
     >
-      <strong>El valor del contador es: {counterData.count}</strong>
+      
       {inputs.map((input, i) => {
         const { label, type, value, valid, onChange, helperText, validator } =
           input;
