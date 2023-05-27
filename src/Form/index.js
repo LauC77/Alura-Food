@@ -64,16 +64,6 @@ const Form = () => {
             "Ingresa una contraseña válida, Al menos 8 caracteres y máximo 20.",
           validator: validarPassword,
         },
-        {
-          label: "Cuenta de github",
-          type: "text",
-          value: "",
-          valid: null,
-          onChange: handleChange,
-          helperText:
-            "Ingresa una contraseña válida, Al menos 8 caracteres y máximo 20.",
-          validator: validarPassword,
-        },
       ],
       buttonText: "Siguiente",
       onSubmit,
